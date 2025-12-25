@@ -1,0 +1,20 @@
+streamlit>=1.30.0
+PyPDF2>=3.0.0
+
+# LangChain core + text splitters
+langchain>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# Vector stores
+faiss-cpu>=1.7.4
+
+# OpenAI integration
+langchain-openai>=0.1.0
+openai>=1.0.0
+
+# Gemini integration
+langchain-google-genai>=0.1.0
+google-generativeai>=0.3.0
+
+# Community integrations (FAISS, chat models, etc.)
+langchain-community>=0.0.30
